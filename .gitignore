@@ -1,0 +1,14 @@
+node_modules/
+test-report/
+test-outout/
+.idea
+json_output/
+junit_xml/
+.settings/
+.vscode/
+.classpath
+.project
+target/
+.factorypathgit
+/screenshots/
+/bingUI.iml

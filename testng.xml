@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNg Cucumber Suite" parallel="tests"
+	   thread-count="3" configfailurepolicy="continue">
+
+<!-- 	<test name="Run All Tests Firefox">
+	<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="au.com.companyName.projectName.main.CucumberRunner"/>
+		</classes>
+	</test> -->
+
+	<test name="Run All Tests Chrome">
+	<parameter name="browser" value="Chrome"/>
+		<classes>
+			<class name="au.com.companyName.projectName.main.CucumberRunner"/>
+		</classes>
+	</test>
+
+<!--	<test name="Run All Tests Default browser">-->
+<!--	<parameter name="browser" value="system"/>-->
+<!--		<classes>-->
+<!--			<class name="au.com.companyName.projectName.main.CucumberRunner"/>-->
+<!--		</classes>-->
+<!--	</test>-->
+
+</suite>
