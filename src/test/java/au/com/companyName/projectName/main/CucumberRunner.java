@@ -25,6 +25,7 @@ public class CucumberRunner extends AbstractTestNGCucumberTests {
     @BeforeSuite
     public void beforeSuite() throws IOException {
             File file = new File(System.getProperty("user.dir") + "//screenshots");
+
             if (file.exists()) {
             FileUtils.cleanDirectory(file);
             }
